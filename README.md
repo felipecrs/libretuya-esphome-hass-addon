@@ -1,4 +1,4 @@
-## Installation
+# Installation
 
 [![Add repository on my Home Assistant][repository-badge]][repository-url]
 
