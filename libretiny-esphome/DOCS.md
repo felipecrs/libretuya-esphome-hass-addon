@@ -10,7 +10,7 @@ The installation of this add-on is pretty straightforward and not different in c
 4. Start the add-on, check the logs of the add-on to see if everything went well.
 5. Click "OPEN WEB UI" to open the LibreTiny ESPHome dashboard. You will be asked for your Home Assistant credentials - ESPHome uses Home Assistant's authentication system to log you in.
 
-You can view the LibreTiny ESPHome documentation at https://docs.LibreTiny.ml/docs/projects/esphome/
+You can view the LibreTiny ESPHome documentation at https://docs.libretiny.eu/docs/projects/esphome/
 
 ## Configuration
 
