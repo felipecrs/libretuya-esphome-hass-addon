@@ -9,7 +9,7 @@ backup_exclude:
 description: LibreTiny ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices
 hassio_api: true
 host_network: true
-image: ghcr.io/libretiny-eu/libretiny-esphome-hassio-{arch}
+image: ghcr.io/libretiny-eu/libretiny-esphome-hassio
 ingress: true
 ingress_port: 0
 init: false
