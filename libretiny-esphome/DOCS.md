@@ -1,16 +1,16 @@
-# Home Assistant Community Add-on: LibreTuya ESPHome
+# Home Assistant Community Add-on: LibreTiny ESPHome
 
 ## Installation
 
 The installation of this add-on is pretty straightforward and not different in comparison to installing any other Home Assistant add-on.
 
-1. Search for the “LibreTuya ESPHome” add-on in the Supervisor add-on store.
+1. Search for the “LibreTiny ESPHome” add-on in the Supervisor add-on store.
 2. Press install to download the add-on and unpack it on your machine. This can take some time.
 3. Optional: If you're using SSL/TLS certificates and want to encrypt your communication to this add-on, please enter `true` into the `ssl` field and set the `fullchain` and `certfile` options accordingly.
 4. Start the add-on, check the logs of the add-on to see if everything went well.
-5. Click "OPEN WEB UI" to open the LibreTuya ESPHome dashboard. You will be asked for your Home Assistant credentials - ESPHome uses Home Assistant's authentication system to log you in.
+5. Click "OPEN WEB UI" to open the LibreTiny ESPHome dashboard. You will be asked for your Home Assistant credentials - ESPHome uses Home Assistant's authentication system to log you in.
 
-You can view the LibreTuya ESPHome documentation at https://docs.libretuya.ml/docs/projects/esphome/
+You can view the LibreTiny ESPHome documentation at https://docs.libretiny.eu/docs/projects/esphome/
 
 ## Configuration
 
@@ -53,7 +53,7 @@ authentication by setting it to `true`.
 
 ### Option: `relative_url`
 
-Host the LibreTuya ESPHome dashboard under a relative URL, so that it can be integrated
+Host the LibreTiny ESPHome dashboard under a relative URL, so that it can be integrated
 into existing web proxies like NGINX under a relative URL. Defaults to `/`.
 
 ### Option: `status_use_ping`
@@ -61,11 +61,11 @@ into existing web proxies like NGINX under a relative URL. Defaults to `/`.
 By default the dashboard uses mDNS to check if nodes are online. This does
 not work across subnets unless your router supports mDNS forwarding or avahi.
 
-Setting this to `true` will make LibreTuya ESPHome use ICMP ping requests to get the node status. Use this if all nodes always have offline status even when they're connected.
+Setting this to `true` will make LibreTiny ESPHome use ICMP ping requests to get the node status. Use this if all nodes always have offline status even when they're connected.
 
 ### Option: `streamer_mode`
 
-If set to `true`, this will enable streamer mode, which makes LibreTuya ESPHome hide all
+If set to `true`, this will enable streamer mode, which makes LibreTiny ESPHome hide all
 potentially private information. So for example WiFi (B)SSIDs (which could be
 used to find your location), usernames, etc. Please note that you need to use
 the `!secret` tag in your YAML file to also prevent these from showing up
