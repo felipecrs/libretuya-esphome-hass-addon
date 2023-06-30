@@ -34,4 +34,4 @@ schema:
 slug: libretiny-esphome
 uart: true
 url: https://docs.libretiny.eu/docs/projects/esphome/
-version: latest
+version: 2023.7.0-dev
